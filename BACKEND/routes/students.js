@@ -2,7 +2,7 @@ const router = require("express").Router();	//import the express module
 const Student = require("../models/Student");	//import the student model
 
 //http://localhost:8080/student/add
-router.route("/add").post((req,res) => {
+router.route("/add").post((req,res) => {cl
     const name = req.body.name;
     const age = Number(req.body.age);
     const gender = req.body.gender;
